@@ -37,8 +37,8 @@ ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD [ \
   
   "--port", "2398", \
-  "--http-ports", "443", \
+  "--http-ports", "2400", \
   "--slaves", "2", \
-  "--max-special-connections", "60000", \
+  "--max-special-connections", "6000", \
   "--allow-skip-dh" \
 ]
